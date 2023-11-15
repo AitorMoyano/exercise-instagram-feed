@@ -1,0 +1,55 @@
+body{
+    font: arial;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    border-bottom: 1px;
+    border-color: gray;
+    background: white;
+    overflow: hidden;
+
+    margin-bottom: 50px;
+}
+.encabezado div{
+    width: 500px;
+    margin: auto;
+}
+.celdas {
+    width: 500px;
+    margin: auto;
+}
+article{
+    border: 1px solid gray;
+    background: white;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+article header{
+    padding: 10px;
+}
+.post {
+    overflow: hidden;
+}
+.nombre h2{
+    font-size: 15px;
+}
+.nombre div{
+    width: 50%;
+    float: left;
+}
+.fecha{
+    text-align: right;
+    color: gray;
+}
+.comentario { 
+    padding: 30px;
+}
+.imagen { 
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+img { 
+    max-width: 600px;
+}
